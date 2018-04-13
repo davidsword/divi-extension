@@ -18,23 +18,23 @@ Note:
 
 | Class Name  | Description | Sec | Row | Col | Mod | Limit |
 | ------------- | ----- | ----- | ----- | ----- | ----- | ----- |
-| `diviSubheading`  | text larger centers text, makes large | -  | - | -  | ✅  | Text |
-| `diviMax` & `diviMax--640`, `diviMax--760`, `diviMax--840`, `diviMax--960`  | centers element, limits width to max### px's | ✅  | ✅ | -  | ✅  | - |
-| `diviTile` & `diviTile--ltr`, `diviTile--rtl` | tile layout, ltr = text left img right, rtl = img left txt right | ✅  | - | -  | - | - |
-| `diviMobileHide` | hide an element on anything <760 | ✅  | ✅  | ✅  | ✅  | -  |
-| `diviMobilePadding`  | add's `5%` padding-left/right when viewport < `1080px` | ✅  | ✅  | ✅  | ✅  | - |
+| `divi-subheading`  | text larger centers text, makes large | -  | - | -  | ✅  | Text |
+| `divi-max` & `divi-max--640`, `divi-max--760`, `divi-max--840`, `divi-max--960`  | centers element, limits width to max### px's | ✅  | ✅ | -  | ✅  | - |
+| `divi-tile` & `divi-tile--ltr`, `divi-tile--rtl` | tile layout, ltr = text left img right, rtl = img left txt right | ✅  | - | -  | - | - |
+| `divi-mobile-hide` | hide an element on anything <760 | ✅  | ✅  | ✅  | ✅  | -  |
+| `divi-mobile-padding`  | add's `5%` padding-left/right when viewport < `1080px` | ✅  | ✅  | ✅  | ✅  | - |
 
 Note:
 
 * Mobile viewport kicks out at `760px`
-* BEM naming in effect, eg, `diviTile diviTile--640` is required
+* [BEM](http://getbem.com/naming/) naming in effect. When adding class into DIVI, do: `divi-tile divi-tile--640`
 * legacy support in place for < 20180413
 
 ## HTML
 
-| Variable | Scope | Description | Theme Only |
-| ------------- | --- | ----- | --- |
-| `%%YEAR%%`  | `#footer-info` | use in place where to show the current year (via jQuery) | ✅  |
+| Variable | Scope | Description | Theme | Plugin |
+| ------------- | --- | ----- | --- | --- |
+| `%%YEAR%%`  | `#footer-info` | use in place where to show the current year (via jQuery) | ✅  | - |
 
 ## PHP
 
