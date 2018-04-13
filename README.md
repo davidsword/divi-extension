@@ -6,28 +6,28 @@ A helpful add on for Wordpress's [divi](https://www.elegantthemes.com/gallery/di
 
 ## Template Library
 
-[⬇️ All](#)
+⬇️   **[DOWNLOAD ALL](#)**
 
-[⬇️ Banner](#)
-[⬇️ Tiles](#)
-[⬇️ CTA](#)
-[⬇️ Text Heavy](#)
+* [Banner](#)
+* [Tiles](#)
+* [CTA](#)
+* [Text Heavy](#)
 
 ---
 
 ### CSS Classes
 
-`.mobilePadding`
+`mobilePadding`
 
 * use on section/rows/columns/modules
 * add's 5% padding-left/right when viewport <1080
 
-`.diviSubheading` / `.diviExcerpt`
+`diviSubheading` / `diviExcerpt`
 
 * use on text modules
 *
 
-`.max640` / `.max820` / `.max960`
+`max640` / `max820` / `max960`
 
 * use on modules
 *
