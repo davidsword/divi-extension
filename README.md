@@ -17,20 +17,11 @@ A helpful add on for Wordpress's [divi](https://www.elegantthemes.com/gallery/di
 
 ### CSS Classes
 
-`mobilePadding`
-
-* use on section/rows/columns/modules
-* add's 5% padding-left/right when viewport <1080
-
-`diviSubheading` / `diviExcerpt`
-
-* use on text modules
-*
-
-`max640` / `max820` / `max960`
-
-* use on modules
-*
+| Class Name  | Desct | Sect | Row | Col | Mdls | Limit |
+| ------------- | ----- | ----- | ----- | ----- | ----- | ----- |
+| `mobilePadding`  | add's 5% padding-left/right when viewport <1080 | ✅  | ✅  | ✅  | ✅  | - |
+| `diviExcerpt`, `diviSubheading`  | text larger centers text, makes large | -  | - | -  | ✅  | text |
+| `max640`, `max820`, `max960`  | text larger centers text, makes large | ✅  | ✅ | -  | ✅  | - |
 
 ---
 
