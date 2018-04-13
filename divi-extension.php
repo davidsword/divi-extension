@@ -8,6 +8,9 @@ Author: davidsword
 Author URI: https://davidsword.ca/
 */
 
+// Security
+defined( 'ABSPATH' ) || exit;
+
 // REMOVE PROJECTS
 add_action( 'admin_menu', function () {
 	remove_menu_page('edit.php?post_type=project');
