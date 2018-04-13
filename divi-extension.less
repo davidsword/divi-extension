@@ -44,6 +44,36 @@ body.et_divi_builder #et_builder_outer_content {
         &--960 { max-width: 960px; }
     }
 
+    // HERO
+
+    .divi-hero {
+        z-index: 9;
+        position: relative;
+        padding: 20vh 0;
+        .divi-hero--full {
+            height: 100vh;
+        }
+        &:before {
+            content: " ";
+            display: block;
+            z-index: 3;
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top:0;
+            left:0;
+            background: rgba(0,0,0,0.6);
+        }
+        .et_pb_row .et_pb_module {
+            max-width: 860px;
+            width: 90%;
+            margin-left: auto !important;
+            margin-right: auto !important;
+            text-align: center;
+            color: white;
+        }
+    }
+
 }
 
 @media screen and (max-width: 760px) {
