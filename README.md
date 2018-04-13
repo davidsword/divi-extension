@@ -20,18 +20,22 @@ Note:
 | Class Name  | Description | Sec | Row | Col | Mod | Limit |
 | ------------- | ----- | :-----: | :-----: | :-----: | :-----: | ----- |
 | `divi-subheading`  | text larger centers text, makes large | -  | - | -  | ✅  | Text |
-| `divi-max` & `divi-max--640`, `divi-max--760`, `divi-max--840`, `divi-max--960`  | centers element, limits width to max### px's | ✅  | ✅ | -  | ✅  | - |
-| `divi-tile` & `divi-tile--ltr`, `divi-tile--rtl` | tile layout, ltr = text left img right, rtl = img left txt right | ✅  | - | -  | - | - |
+| `divi-max` | centers element, limits width to 640px | ✅  | ✅ | -  | ✅  | - |
+| * `divi-max--760`  | modifies max-with to 760px | ✅  | ✅ | -  | ✅  | - |
+| * `divi-max--840`  | modifies max-with to 840px | ✅  | ✅ | -  | ✅  | - |
+| * `divi-max--960`  | modifies max-with to 960px | ✅  | ✅ | -  | ✅  | - |
+| `divi-tile` | row two column boxes. L: text, R: bg img cover | ✅  | - | -  | - | - |
+| * `divi-tile--rtl` | modifier for above, inverts position of txt/img | ✅  | - | -  | - | - |
 | `divi-hero`  | creates hero banner w presets css values | ✅   | - | -  | - | - |
 | `divi-middle-me`  | align an element vertically center | -  | - | -  | ✅  | - |
 | `divi-mobile-hide` | hide an element on anything <760 | ✅  | ✅  | ✅  | ✅  | -  |
-| `divi-mobile-padding`  | add's `5%` padding-left/right when viewport < `1080px` | ✅  | ✅  | ✅  | ✅  | - |
+| `divi-mobile-padding`  | add's `5%` padding-left/right when viewport < `760px` | ✅  | ✅  | ✅  | ✅  | - |
 
 Note:
 
+* \* [BEM](http://getbem.com/naming/) naming in effect. When adding class into DIVI, do: `divi-tile divi-tile--r2l`
+* ignore legacy in `.css` - it's for sites using alpha of this < 20180413
 * Mobile viewport kicks out at `760px`
-* [BEM](http://getbem.com/naming/) naming in effect. When adding class into DIVI, do: `divi-tile divi-tile--640`
-* legacy support in place for < 20180413
 
 ## HTML
 
