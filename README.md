@@ -2,20 +2,17 @@
 
 A helpful plugin for Wordpress's [divi](https://www.elegantthemes.com/gallery/divi/) theme and  [divi-builder](https://www.elegantthemes.com/plugins/divi-builder/) plugin that adds in CSS classes, few PHP functions, a library of prebuilt templates, and some reference documentation. The goal is to reduce repetitive DIVI-clicks while creating pages, and offer a repo for older sites to gain new features as they are created.
 
----
-
 ## Template Library
 
 ⬇️   **[Download all](#)**
 
-* [Banner](#)
-* [Tiles](#)
-* [CTA](#)
-* [Text Heavy](#)
+| thumb  | thumb | thumb | thumb |
+| ------------- | ----- | ----- | ----- |
+| [Banner](#)  | [Tiles](#) | [CTA](#) | [Text Heavy](#) |
 
-### CSS Classes
+## CSS Classes
 
-| Class Name  | Description | Sec | Row | Col | Mod | Mod Limit |
+| Class Name  | Description | Sec | Row | Col | Mod | Limit |
 | ------------- | ----- | ----- | ----- | ----- | ----- | ----- |
 | `mobilePadding`  | add's `5%` padding-left/right when viewport < `1080px` | ✅  | ✅  | ✅  | ✅  | - |
 | `diviExcerpt`, `diviSubheading`  | text larger centers text, makes large | -  | - | -  | ✅  | Text |
@@ -31,4 +28,4 @@ A helpful plugin for Wordpress's [divi](https://www.elegantthemes.com/gallery/di
 
 ## PHP
 
-* removes "Projects" custom post type
+* **Removes** "Projects" custom post type
