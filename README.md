@@ -1,17 +1,17 @@
 # DIVI Extension
 
-A helpful add on for Wordpress's [divi](https://www.elegantthemes.com/gallery/divi/) theme and  [divi-builder](https://www.elegantthemes.com/plugins/divi-builder/) plugin that adds in CSS classes, few PHP functions, a library of prebuilt templates, and some reference documentation.
-
-The goal is to reduce repetitive DIVI-clicks while creating pages, and offering a repo for older sites to use have new the latest classes available to them.
+A helpful add on for Wordpress's [divi](https://www.elegantthemes.com/gallery/divi/) theme and  [divi-builder](https://www.elegantthemes.com/plugins/divi-builder/) plugin that adds in CSS classes, few PHP functions, a library of prebuilt templates, and some reference documentation. The goal is to reduce repetitive DIVI-clicks while creating pages, and offering a repo for older sites to use have new the latest classes available to them.
 
 ---
 
 ## Template Library
 
-* [Banner](#)
-* [Tiles](#)
-* [CTA](#)
-* [Text Heavy](#)
+[⬇️ All](#)
+
+[⬇️ Banner](#)
+[⬇️ Tiles](#)
+[⬇️ CTA](#)
+[⬇️ Text Heavy](#)
 
 ---
 
