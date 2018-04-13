@@ -6,7 +6,7 @@ A helpful plugin for Wordpress's [divi](https://www.elegantthemes.com/gallery/di
 
 ⬇️   **[Download all](#)**
 
-| thumb  | thumb | thumb | thumb |
+| ![](https://raw.githubusercontent.com/davidsword/divi-extension/master/src/banner.jpg)  | ![](https://raw.githubusercontent.com/davidsword/divi-extension/master/src/tiles.jpg) | ![](https://raw.githubusercontent.com/davidsword/divi-extension/master/src/cta.jpg) | ![](https://raw.githubusercontent.com/davidsword/divi-extension/master/src/textheavy.jpg) |
 | ------------- | ----- | ----- | ----- |
 | [Banner](#)  | [Tiles](#) | [CTA](#) | [Text Heavy](#) |
 

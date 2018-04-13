@@ -1,0 +1,53 @@
+// out: divi-extension.css, compress: true
+html body .tileLayout {
+    padding:0;
+    margin:0;
+}
+
+html body .tileLayout .et_pb_column {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    min-height: 65vh;
+}
+
+
+html body .tileLayout--r2l .et_pb_column:nth-child(1),
+html body .tileLayout--l2r .et_pb_column:nth-child(2) {
+
+}
+html body .tileLayout--r2l .et_pb_column:nth-child(2) > .et_pb_module,
+html body .tileLayout--l2r .et_pb_column:nth-child(1) > .et_pb_module {
+    max-width: 480px;
+    margin:0 auto !important;
+    float: none !important;
+}
+
+@media screen and (max-width: 600px) {
+    html body .tileLayout--r2l .et_pb_column:nth-child(2) > .et_pb_module,
+    html body .tileLayout--l2r .et_pb_column:nth-child(1) > .et_pb_module {
+        padding-top: 50px !important;
+        padding-bottom: 50px !important;
+        padding-left: 5% !important;
+        padding-right: 5% !important;
+
+    }
+}
+
+
+
+html body .diviExcerpt {
+    max-width: 860px;
+    text-align: center;
+    font-size: 22px;
+    line-height: 1.8em;
+    margin-left: auto;
+    margin-right: auto;
+}
+@media screen and (max-width: 600px) {
+    html body .diviExcerpt {
+        font-size: 17px;
+    }
+}
