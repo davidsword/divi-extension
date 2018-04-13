@@ -8,43 +8,32 @@ Author: davidsword
 Author URI: https://davidsword.ca/
 */
 
+// REMOVE PROJECTS
 add_action( 'admin_menu', function () {
 	remove_menu_page('edit.php?post_type=project');
-} );
+});
+add_action('init',function (){
+	unregister_post_type( 'project' );
+});
 
-
-add_action('wp_footer','roidivi_copyright_fix',99999);
-function roidivi_copyright_fix() {
-	?>
-	<script>
-	jQuery(window).ready(function() {
-		if (jQuery('#footer-info').length > 0) {
-		var currentTime = new Date();
-		jQuery('#footer-info').html( jQuery('#footer-info').html().replace('%%YEAR%%',currentTime.getFullYear()) );
-		}
-	});
-
-	<?php if (is_404()) : ?>
-
-	jQuery(window).ready(function() {
-		var currentTime = new Date()
-		jQuery('article .entry h1').html("ERROR 404 - Page Not Found");
-	});
-
-	<?php endif; ?>
-
-	</script>
-	<?php
-}
-
-
+// ADD CSS & JS
 add_action( "wp_footer", function(){
+
 	wp_enqueue_style(
 		'divi-extension',
 		plugins_url( 'divi-extension.css',  __FILE__  ),
 		array(),
 		false
 	);
+
+	wp_enqueue_script(
+		'divi-extension',
+		plugins_url( 'divi-extension.js',  __FILE__  ),
+		['jquery'],
+		false,
+		true
+	);
+
 });
 
 ?>
