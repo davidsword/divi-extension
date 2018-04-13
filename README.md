@@ -1,6 +1,6 @@
 # DIVI Extension
 
-A helpful plugin for Wordpress's [divi](https://www.elegantthemes.com/gallery/divi/) theme and  [divi-builder](https://www.elegantthemes.com/plugins/divi-builder/) plugin that adds in CSS classes, few PHP functions, a library of prebuilt templates, and some reference documentation. The goal is to reduce repetitive DIVI-clicks while creating pages, and offer a repo for older sites to gain new features as they are created.
+A helpful plugin for Wordpress's [divi](https://www.elegantthemes.com/gallery/divi/) theme and  [divi-builder](https://www.elegantthemes.com/plugins/divi-builder/) plugin that adds in CSS classes, few PHP functions, a library of prebuilt templates, and some reference documentation. The goal is to reduce repetitive DIVI-clicks and inline styles while creating pages, as well as offering new features as they are added.
 
 ## Template Library
 
@@ -25,7 +25,7 @@ Note:
 | * `divi-max--840`  | modifies max-with to 840px | ✅  | ✅ | -  | ✅  | - |
 | * `divi-max--960`  | modifies max-with to 960px | ✅  | ✅ | -  | ✅  | - |
 | `divi-tile` | row two column boxes. L: text, R: bg img cover | ✅  | - | -  | - | - |
-| * `divi-tile--rtl` | modifier for above, inverts position of txt/img | ✅  | - | -  | - | - |
+| * `divi-tile--invert` | modifier for above, inverts position of txt/img | ✅  | - | -  | - | - |
 | `divi-hero`  | creates hero banner w presets css values | ✅   | - | -  | - | - |
 | `divi-middle-me`  | align an element vertically center | -  | - | -  | ✅  | - |
 | `divi-mobile-hide` | hide an element on anything <760 | ✅  | ✅  | ✅  | ✅  | -  |
