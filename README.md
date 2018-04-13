@@ -12,15 +12,18 @@ A helpful plugin for Wordpress's [divi](https://www.elegantthemes.com/gallery/di
 
 Note:
 
+* 🚧 Layouts currently under construction - check back soon
 * All templates are Sections
 
 ## CSS Classes
 
 | Class Name  | Description | Sec | Row | Col | Mod | Limit |
-| ------------- | ----- | ----- | ----- | ----- | ----- | ----- |
+| ------------- | ----- | :-----: | :-----: | :-----: | :-----: | ----- |
 | `divi-subheading`  | text larger centers text, makes large | -  | - | -  | ✅  | Text |
 | `divi-max` & `divi-max--640`, `divi-max--760`, `divi-max--840`, `divi-max--960`  | centers element, limits width to max### px's | ✅  | ✅ | -  | ✅  | - |
 | `divi-tile` & `divi-tile--ltr`, `divi-tile--rtl` | tile layout, ltr = text left img right, rtl = img left txt right | ✅  | - | -  | - | - |
+| `divi-hero`  | creates hero banner w presets css values | ✅   | - | -  | - | - |
+| `divi-middle-me`  | align an element vertically center | -  | - | -  | ✅  | - |
 | `divi-mobile-hide` | hide an element on anything <760 | ✅  | ✅  | ✅  | ✅  | -  |
 | `divi-mobile-padding`  | add's `5%` padding-left/right when viewport < `1080px` | ✅  | ✅  | ✅  | ✅  | - |
 
@@ -33,7 +36,7 @@ Note:
 ## HTML
 
 | Variable | Scope | Description | Theme | Plugin |
-| ------------- | --- | ----- | --- | --- |
+| ------------- | --- | ----- | :---: | :---: |
 | `%%YEAR%%`  | `#footer-info` | use in place where to show the current year (via jQuery) | ✅  | - |
 
 ## PHP
