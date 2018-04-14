@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: DIVI Extension
+Plugin Name: DIVI Helpers
 Version: 1.0.1
 Plugin URI: https://github.com/davidsword/divi-extension
 Description: A helpful add on for Wordpress's divi theme and divi-builder plugin that adds in CSS classes, few PHP functions, a library of prebuilt templates, and some reference documentation.
@@ -23,15 +23,15 @@ add_action('init',function (){
 add_action( "wp_footer", function(){
 
 	wp_enqueue_style(
-		'divi-extension',
-		plugins_url( 'divi-extension.css',  __FILE__  ),
+		'divi-helpers',
+		plugins_url( 'divi-helpers.css',  __FILE__  ),
 		array(),
 		false
 	);
 
 	wp_enqueue_script(
-		'divi-extension',
-		plugins_url( 'divi-extension.js',  __FILE__  ),
+		'divi-helpers',
+		plugins_url( 'divi-helpers.js',  __FILE__  ),
 		['jquery'],
 		false,
 		true
