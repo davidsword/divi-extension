@@ -1,25 +1,48 @@
-// out: divi-extension.css, compress: true
+// out: divi-helpers.css, compress: true
 body.et_divi_builder #et_builder_outer_content {
 
     // TILES
 
-    .divi-tile {
+    .divi-tiles.et_pb_section {
         padding:0;
         margin:0;
-        .et_pb_column {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            flex-direction: column;
-            flex-wrap: wrap;
-            min-height: 65vh;
+
+        .et_pb_row {
+            padding:0;
+            margin:0;
+
+            .et_pb_column {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                flex-wrap: wrap;
+                min-height: 65vh;
+            }
+
         }
-        &--invert .et_pb_column:nth-child(2) > .et_pb_module,
-        & .et_pb_column:nth-child(1) > .et_pb_module {
-            max-width: 480px;
-            margin: 0 auto !important;
-            float: none !important;
+
+        // text
+        .et_pb_row .et_pb_column:nth-child(1),
+        .et_pb_row.divi-tiles__invert .et_pb_column:nth-child(2) {
+            .et_pb_module {
+                max-width: 480px;
+                margin: 0 auto !important;
+                //float: none !important;
+            }
         }
+
+        // images 
+        // .et_pb_row .et_pb_column:nth-child(2),
+        // .et_pb_row.divi-tiles__invert .et_pb_column:nth-child(1) {
+        //     .et_pb_module {
+        //         max-width: 100%;
+        //         margin: 0 auto !important;
+        //         background: #eee;
+        //         border: 10px solid red;
+        //     }
+        // }
+
     }
 
     // SUBHEADING
@@ -65,10 +88,10 @@ body.et_divi_builder #et_builder_outer_content {
             background: rgba(0,0,0,0.6);
         }
         .et_pb_row .et_pb_module {
-            max-width: 860px;
-            width: 90%;
             margin-left: auto !important;
             margin-right: auto !important;
+            max-width: 860px;
+            width: 90%;
             text-align: center;
             color: white;
         }
@@ -81,8 +104,8 @@ body.et_divi_builder #et_builder_outer_content {
 
         // MOBILE: TILES
 
-        .divi-tile--invert .et_pb_column:nth-child(2) > .et_pb_module,
-        .divi-tile .et_pb_column:nth-child(1) > .et_pb_module {
+        .divi-tiles__invert:nth-child(2) > .et_pb_module,
+        .divi-tiles .et_pb_column:nth-child(1) > .et_pb_module {
             padding-top: 50px !important;
             padding-bottom: 50px !important;
             padding-left: 5% !important;

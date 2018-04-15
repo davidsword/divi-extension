@@ -25,7 +25,7 @@ Note:
 | * `divi-max--840`  | modifies max-with to 840px | ✅  | ✅ | -  | ✅  | - |
 | * `divi-max--960`  | modifies max-with to 960px | ✅  | ✅ | -  | ✅  | - |
 | `divi-tile` | row two column boxes. L: text, R: bg img cover | ✅  | - | -  | - | - |
-| * `divi-tile--invert` | modifier for above, inverts position of txt/img | ✅  | - | -  | - | - |
+| * `divi-tile__invert` | modifier for above, inverts position of txt/img | -  | ✅ | -  | - | - |
 | `divi-hero`  | creates hero banner w presets css values | ✅   | - | -  | - | - |
 | `divi-middle-me`  | align an element vertically center | -  | - | -  | ✅  | - |
 | `divi-mobile-hide` | hide an element on anything <760 | ✅  | ✅  | ✅  | ✅  | -  |

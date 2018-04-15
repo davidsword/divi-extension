@@ -26,14 +26,14 @@ add_action( "wp_footer", function(){
 		'divi-helpers',
 		plugins_url( 'divi-helpers.css',  __FILE__  ),
 		array(),
-		false
+		time()
 	);
 
 	wp_enqueue_script(
 		'divi-helpers',
 		plugins_url( 'divi-helpers.js',  __FILE__  ),
 		['jquery'],
-		false,
+		time(),
 		true
 	);
 
