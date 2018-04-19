@@ -4,7 +4,7 @@ Tags:
 Requires at least: 4.5.0
 Tested up to: 4.9.5
 Requires PHP: 5.6
-Stable tag: 1.0.0
+Stable tag: 1.0.1
 License: MIT
 License URI: https://github.com/davidsword/divi-helpers/blob/master/LICENSE
 
