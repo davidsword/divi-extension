@@ -4,15 +4,14 @@ A helpful plugin for Wordpress's [divi](https://www.elegantthemes.com/gallery/di
 
 ## Template Library
 
-⬇️   **[Download all](#)**
+⬇️   **[Download all](https://raw.githubusercontent.com/davidsword/divi-helpers/master/layouts/divi-helpers-all.json)**
 
-| ![](https://raw.githubusercontent.com/davidsword/divi-helpers/master/src/banner.jpg)  | ![](https://raw.githubusercontent.com/davidsword/divi-helpers/master/src/tiles.jpg) | ![](https://raw.githubusercontent.com/davidsword/divi-helpers/master/src/cta.jpg) | ![](https://raw.githubusercontent.com/davidsword/divi-helpers/master/src/textheavy.jpg) |
+| ![https://raw.githubusercontent.com/davidsword/divi-helpers/master/layouts/divi-helpers-hero.json](https://raw.githubusercontent.com/davidsword/divi-helpers/master/src/banner.jpg)  | ![https://raw.githubusercontent.com/davidsword/divi-helpers/master/layouts/divi-helpers-tiles.json](https://raw.githubusercontent.com/davidsword/divi-helpers/master/src/tiles.jpg) | ![https://raw.githubusercontent.com/davidsword/divi-helpers/master/layouts/divi-helpers-cta.json](https://raw.githubusercontent.com/davidsword/divi-helpers/master/src/cta.jpg) | ![https://raw.githubusercontent.com/davidsword/divi-helpers/master/layouts/divi-helpers-text-heavy.json](https://raw.githubusercontent.com/davidsword/divi-helpers/master/src/textheavy.jpg) |
 | ------------- | ----- | ----- | ----- |
-| [⬇️ Banner](#)  | [⬇️ Tiles](#) | [⬇️ CTA](#) | [⬇️ Text Heavy](#) |
+| [⬇️ Hero](https://raw.githubusercontent.com/davidsword/divi-helpers/master/layouts/divi-helpers-hero.json)  | [⬇️ Tiles](https://raw.githubusercontent.com/davidsword/divi-helpers/master/layouts/divi-helpers-tiles.json) | [⬇️ CTA](https://raw.githubusercontent.com/davidsword/divi-helpers/master/layouts/divi-helpers-cta.json) | [⬇️ Text Heavy](https://raw.githubusercontent.com/davidsword/divi-helpers/master/layouts/divi-helpers-text-heavy.json) |
 
 Note:
 
-* 🚧 Layouts currently under construction - check back soon
 * All templates are Sections
 
 ## CSS Classes

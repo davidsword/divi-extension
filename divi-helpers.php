@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: DIVI Helpers
-Version: 1.0.1
+Version: 1.0.0
 Plugin URI: https://github.com/davidsword/divi-extension
 Description: A helpful add on for Wordpress's divi theme and divi-builder plugin that adds in CSS classes, few PHP functions, a library of prebuilt templates, and some reference documentation.
 Author: davidsword
