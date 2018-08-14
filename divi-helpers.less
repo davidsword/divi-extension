@@ -48,13 +48,21 @@ body.et_divi_builder #et_builder_outer_content {
 
     // SUBHEADING
 
-    .divi-subheading {
+    .divi-subheading .et_pb_module {
         max-width: 860px;
-        text-align: center;
         font-size: 22px;
         line-height: 1.8em;
         margin-left: auto;
         margin-right: auto;
+        * , & {
+            text-align: center;
+        }
+    }
+
+    // CALL TO ACTION
+
+    .divi-cta {
+        font-size: 20px;
     }
 
     // MAX WIDTH
