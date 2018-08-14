@@ -1,6 +1,10 @@
+⚠️ **Archived!** - Project archived. Full focus is on Gutenberg blocks. DIVI is third party, constantly changing, door documentation, and has caused me many grey hairs. Good riddance.
+
+---
+
 # DIVI Helpers
 
-A helpful plugin for Wordpress's [divi](https://www.elegantthemes.com/gallery/divi/) theme and  [divi-builder](https://www.elegantthemes.com/plugins/divi-builder/) plugin that adds in CSS classes, few PHP functions, a library of prebuilt templates, and some reference documentation. The goal is to reduce repetitive DIVI-clicks and inline styles while creating pages, as well as offering new features as they are added.
+A helpful plugin for WordPress's [divi](https://www.elegantthemes.com/gallery/divi/) theme and  [divi-builder](https://www.elegantthemes.com/plugins/divi-builder/) plugin that adds in CSS classes, few PHP functions, a library of prebuilt templates, and some reference documentation. The goal is to reduce repetitive DIVI-clicks and inline styles while creating pages, as well as offering new features as they are added.
 
 ## Template Library
 
